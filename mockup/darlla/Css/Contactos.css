@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color:  #f4f4f4;
+}  
+
+.espacio {
+    width: 50%;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+.Menu{
+    list-style: none;
+    text-align: right;
+    padding-top: 20px;
+
+}
+.Menu li{
+    display: inline-block;
+    padding:20px;
+    
+}
+.Menu li a{
+    text-decoration: none;
+    color:#050f18;
+    font-size: 35px;
+    padding: 2rem;
+}
+.Menu li a:hover{
+    color: #ffffff;
+
+}
+.Menu li:hover{
+    background-color:#a5a0a0;
+}
+
+.pie{
+    width: 100%;
+    height: 90px; 
+    background-color: #f4f4f4;      
+    text-align: center;
+    color: #000;
+}
+.img{
+    text-align: center;
+    padding: 6px;
+}
+.imagen2{
+    width: 20px;
+    height: auto;
+}
+.imagen3{
+    width: 20px;
+    height: auto;
+}
+
+.sect1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(../Imagenes/fondol.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    align-items: center;
+}
+
+.contenedor1 {
+    width: 50%;
+    font-size: 30pt;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff9d;
+    color: #252424;
+  
+
+}
+
+.contenedor1 .diva{
+    margin: 30px;
+    background-color: #5e5d5d;
+}
+
+.contenedor1 .diva a{
+    text-decoration: none;
+    width: 79%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em 0.7em;
+    color: white;
+}
+
+.contenedor1 .diva a:hover{
+    background-color: #76797b;
+}
+
+.text-justify {
+    text-align: justify;
+  }
